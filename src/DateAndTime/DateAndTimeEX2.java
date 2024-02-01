@@ -24,7 +24,7 @@ public class DateAndTimeEX2
         System.out.println(hour);
 
 //        LocalDateTime localDateTime = localDate1.atStartOfDay();
-//         System.out.println(localDateTime);
+//          System.out.println(localDateTime);
 
     }
 }
