@@ -22,6 +22,5 @@ public class StreamAPI
         System.out.println("-----------------------------");
         list.forEach(n -> System.out.println(n));
 
-
     }
 }
