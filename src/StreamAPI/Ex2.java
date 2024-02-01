@@ -13,7 +13,7 @@ public class Ex2
         num.add(4);
         num.add(8);
         num.add(2);num.add(1);
-
+        System.out.println("parth");
         Stream<Integer> stream = num.stream();
         Stream<Integer> objectStream = stream.filter(n -> n % 2 != 0)
                 .map(n -> n * 2)
