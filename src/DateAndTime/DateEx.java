@@ -13,5 +13,6 @@ public class DateEx
 
         System.out.println(d.getYear()+1900); //It counts Year from 1900 so we have to add+1900
         System.out.println(d.getMonth()+1); //Count month from 0
+
     }
 }
