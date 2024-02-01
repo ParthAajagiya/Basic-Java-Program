@@ -14,8 +14,8 @@ public class StreamAPI
         list.add(4);
         list.add(15);
         list.add(471);
-//        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
         Stream<Integer> s1 = list.stream();
+//        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
         Stream<Integer> s2 = s1.filter(n -> n % 2 == 0);
         Stream<Integer> s3 = s2.map(n -> n % 2);
         Integer reduce = s3.reduce(0, (c, e) -> c + e);
